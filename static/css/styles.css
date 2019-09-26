@@ -1,0 +1,45 @@
+* {
+  border-radius: 0 !important;
+  transition: .3s;
+}
+
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fff;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #111;
+}
+
+#tasks {
+  max-height: 540px;
+  overflow-y: scroll;
+}
+
+.datetimepicker-wrapper {
+  margin-bottom: 15px;
+}
+
+a svg {
+  margin-top: 13px;
+  color: #000;
+  opacity: .4 !important;
+}
+
+a svg:hover {
+  opacity: 1 !important;
+  color: red !important;
+}
+
+.is-today {
+  background-image: linear-gradient(to bottom, rgba(50, 168, 82, .3) 10%, transparent 100%);
+}
+
+.media {
+  padding: 1rem;
+  /*margin-bottom: -16px;*/
+}

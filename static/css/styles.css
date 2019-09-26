@@ -1,6 +1,6 @@
 * {
-  border-radius: 0 !important;
   transition: .3s;
+  border-radius: 0 !important;
 }
 
 ::-webkit-scrollbar {
@@ -16,8 +16,8 @@
 }
 
 #tasks {
-  max-height: 540px;
   overflow-y: scroll;
+  max-height: 540px;
 }
 
 .datetimepicker-wrapper {
@@ -26,8 +26,8 @@
 
 a svg {
   margin-top: 13px;
-  color: #000;
   opacity: .4 !important;
+  color: #000;
 }
 
 a svg:hover {
@@ -41,5 +41,8 @@ a svg:hover {
 
 .media {
   padding: 1rem;
-  /*margin-bottom: -16px;*/
+}
+
+.datetimepicker.is-black .datepicker-body .datepicker-dates .datepicker-days .datepicker-date .date-item.is-active {
+  color: #fff;
 }

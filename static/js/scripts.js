@@ -93,6 +93,7 @@ var task_calendar = bulmaCalendar.attach(task, options = {
   showClearButton: false,
   color: 'black',
   startDate: today,
+  showClearButton: true,
   showHeader: false,
   minDate: today,
   disabledDates: []
